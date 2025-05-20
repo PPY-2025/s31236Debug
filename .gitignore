@@ -1,0 +1,48 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# pytest
+.cache/
+.pytest_cache/
+
+# mypy, coverage, profiling etc.
+.mypy_cache/
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode (jeśli ktoś używa obok)
+.vscode/
+
+# === PyCharm ===
+.idea/
+*.iml
+
+# === Systemowe pliki ===
+.DS_Store
+Thumbs.db
