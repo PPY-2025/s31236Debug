@@ -35,12 +35,10 @@ def simulate_battle():
 
     print("Start:", w.hp, m.hp)
     w.attack(m)
-    print("warior attacked:", w.hp, m.hp)
     m.attack(w)
-    print("mage attacked:", w.hp, m.hp)
     m.attack(w)
-    print("mage attacked:", w.hp, m.hp)
     m.attack(w)
-    print("mage attacked:", w.hp, m.hp)
     m.attack(w)
     print("End:", w.hp, m.hp)
+
+# cast damage to int after multiplying it by 1.5

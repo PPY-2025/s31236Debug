@@ -36,3 +36,5 @@ def show_result():
     avg = calculate_average(grades)
     word = to_word_grade(avg)
     print(f"Średnia: {avg:.2f}, Ocena: {word}")
+
+# add clean_grades function to remove all grades out of 1..5 scope
